@@ -1,0 +1,159 @@
+*{margin: 0px;
+padding: 0px;}
+
+@keyframes ashishjat{
+			from{width: 0%;}
+
+			to{width: 100%;}
+
+}
+
+			div.animtion{background-color: red;
+			height: 1.5px;
+			animation-name: ashishjat;
+			animation-duration: 1s;
+			animation-timing-function: ease-in;
+			/*animation-iteration-count: infinite;*/
+		}
+
+.footer1{background-color: blue;
+height: 41px;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+/*navbar*/
+
+header{height: 8vh;
+background-color: blue;
+display: flex;
+
+
+}
+ .submit{ display: flex;
+    height: 3vh;
+    margin: 13px -66px
+    
+   }
+
+    div.submit  input{width: 8vh;
+    	
+    	border-radius: 5px;
+color: white;
+background-color: blue;
+border:2px solid #7d7ea9;
+cursor: pointer;
+}
+
+ .submit1{ display: flex;
+    height: 3vh;
+    margin: 13px 135px
+    
+   }
+
+    div.submit1  input{width: 10vh;
+    	height: 25px;
+    	font-size: 18px;
+    	
+    	border-radius: 2px;
+color: white;
+background-color: blue;
+border:2px solid #7d7ea9;
+cursor: pointer;
+}
+
+.search{ display: flex;
+    height: 3vh;
+    margin: 12px 73px;
+}
+
+  
+
+    
+.search input{ width: 30vw;
+	
+border-radius: 5px;
+text-align:center;
+padding: 0px -10px;
+}
+
+
+
+
+
+
+
+ul li {list-style: none;
+	display: inline-block;
+	padding: 15px 30px;
+
+
+
+}
+
+
+
+ul li a{    color: rgb(0% 89% 100%);
+text-decoration: none;
+}
+
+
+header div img {
+    width: 73px;
+    height: 23px;
+    display: flex;
+    padding: 15px 31px;
+}
+
+ul li a:hover{font-weight: bold;
+	font-size: 20px;
+}
+
+
+/*tbody*/
+
+.contact{
+	min-height: calc(100vh - 41px - 8vh);
+
+
+
+}
+
+
+.contact img{
+		display: inline-block;
+	justify-content: center;
+	margin: 9px 5%;
+	height: 80vh;
+	width: 90%;
+
+
+}
+
+
+.card{width: 177vh;
+margin: auto;
+}
+
+
+.text-center {
+	text-align: center;
+	
+}
+
+
+my-1{margin: 4px 0px;}
+
+.card-item{width: 12vw;
+	/*height: 27vh;*/
+display: inline-flex; 
+justify-content: center;
+flex-direction: column;
+margin: 0px 22px;}
+
+
+/*div.card-item img{width: 150vw;
+height: 130vh;}*/
